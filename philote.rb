@@ -1,8 +1,8 @@
 class Philote < Formula
   desc "Simple pubsub websocket server."
   homepage "https://github.com/pote/philote"
-  url "https://github.com/pote/philote/archive/v0.2.1.tar.gz"
-  sha256 "33256cd1fbcfb5113cb9078e6328095dbc4d7742b3d2fb74f5b2068fa7ab20e4"
+  url "https://github.com/pote/philote/archive/v0.3.0.tar.gz"
+  sha256 "e302aa2413d2e85e4825ae701150890596a3404c3e054101158dd46a7d38e566"
 
   depends_on "go"
   depends_on "gpm"
