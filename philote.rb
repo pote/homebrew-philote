@@ -1,8 +1,8 @@
 class Philote < Formula
   desc "Simple pubsub websocket server."
   homepage "https://github.com/pote/philote"
-  url "https://github.com/pote/philote/archive/v0.3.0.tar.gz"
-  sha256 "e302aa2413d2e85e4825ae701150890596a3404c3e054101158dd46a7d38e566"
+  url "https://github.com/pote/philote/archive/v0.3.1.tar.gz"
+  sha256 "0a55432657024fbf66b81d315bfcf7e5e547f6ff75cda8a4ddba1d3ce341cff0"
 
   depends_on "go"
   depends_on "gpm"
@@ -15,7 +15,7 @@ class Philote < Formula
 
   plist_options :manual => "philote"
 
-  def plist; <<-EOS.undent
+  def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
